@@ -15,6 +15,10 @@ namespace bsp01
 		{
 			allDucks.Add(d);
 		}
+		public void printAllDucks()
+		{
+
+		}
 	}
 }
 
