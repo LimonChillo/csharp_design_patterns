@@ -36,8 +36,8 @@
     <Compile Include="Duck.cs" />
     <Compile Include="Programm.cs" />
     <Compile Include="Quack.cs" />
-    <Compile Include="quack1.cs" />
-    <Compile Include="quack2.cs" />
+    <Compile Include="quacken.cs" />
+    <Compile Include="quietschen.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

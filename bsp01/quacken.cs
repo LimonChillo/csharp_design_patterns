@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace bsp01
 {
-    class quack1 : Quack
+	class quacken : Quack
     {
         public void quack()
         {
-			Console.WriteLine("QUACK 1");
+			Console.WriteLine("Quack!");
         }
     }
 }

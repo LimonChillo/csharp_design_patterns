@@ -11,9 +11,9 @@ namespace bsp01
         static void Main(string[] args)
         {
             Duck m = new MallardDuck();
-            m.setQuack(new quack1());
+			m.setQuack(new quacken());
             m.quack();
-            m.setQuack(new quack2());
+			m.setQuack(new quietschen());
             m.quack();
             m.swim();
             m.display();
