@@ -7,8 +7,8 @@ namespace bsp02
 	class Account
 	{
 
-		private string name;
-		private double money = 0;
+		protected string name;
+		protected  double money = 0;
 
 		public Account (string name)
 		{
@@ -20,7 +20,7 @@ namespace bsp02
 			money += d;
 		}
 
-		public void withDraw(double d)
+		public virtual void withDraw(double d)
 		{
 			money -= d;
 		}
