@@ -10,7 +10,7 @@ namespace bsp01
     {
         public void quack()
         {
-            Console.WriteLine("QUACK 1");
+			Console.WriteLine("QUACK 1"); 
         }
     }
 }
