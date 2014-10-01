@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{1E391A83-64B6-4E5C-880C-705FB383283C}</ProjectGuid>
+    <ProjectGuid>{582F15F5-5D04-4211-A1EF-806CB16A3136}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>bsp01</RootNamespace>
-    <AssemblyName>bsp01</AssemblyName>
+    <RootNamespace>bsp02</RootNamespace>
+    <AssemblyName>bsp02</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,13 +32,10 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Duck.cs" />
-    <Compile Include="Programm.cs" />
-    <Compile Include="Quack.cs" />
-    <Compile Include="quacken.cs" />
-    <Compile Include="quietschen.cs" />
-    <Compile Include="test.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="Account.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
