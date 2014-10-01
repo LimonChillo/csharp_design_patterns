@@ -10,7 +10,7 @@ namespace bsp01
     {
         public void quack()
         {
-			Console.WriteLine("QUACK 256 + juhu + 265");
+			Console.WriteLine("QUACK 1");
         }
     }
 }
