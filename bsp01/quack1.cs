@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,8 @@ namespace bsp01
     {
         public void quack()
         {
-			Console.WriteLine("QUACK 1"); 
+			Console.WriteLine("QUACK 14");
+
         }
     }
 }
