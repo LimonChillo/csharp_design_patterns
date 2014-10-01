@@ -5,10 +5,15 @@ using System.Text;
 
 namespace bsp01
 {
-    abstract class Duck
+	abstract class Duck
     {
 
-        Quack actualQuack;
+		Quack actualQuack;
+
+		public Duck(Quack q)
+		{
+			actualQuack = q;
+		}
       
         public void setQuack(Quack actualQuack)
         {
@@ -29,8 +34,14 @@ namespace bsp01
     }
 
 
-    class MallardDuck : Duck
+	class MallardDuck : Duck
     {
+		public MallardDuck(Quack q):base(q)
+		{
+
+		}
+
+
         public override void display()
         {
             Console.Out.WriteLine("Mallard");
@@ -39,6 +50,12 @@ namespace bsp01
 
     class RedheadDuck : Duck
     {
+
+		public RedheadDuck(Quack q):base(q)
+		{
+
+		}
+
         public override void display()
         {
             Console.Out.WriteLine("RedheadDuck");

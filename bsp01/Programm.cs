@@ -10,13 +10,15 @@ namespace bsp01
     {
         static void Main(string[] args)
         {
-            Duck m = new MallardDuck();
-			m.setQuack(new quacken());
-            m.quack();
-			m.setQuack(new quietschen());
-            m.quack();
-            m.swim();
-            m.display();
+
+			Manager m = new Manager ();
+
+
+			m.addDuck(new RedheadDuck(new quacken()));
+			m.addDuck(new MallardDuck(new quietschen()));
+		
+
+			m.printAllDucks ();
             Console.ReadLine();
         }
     }

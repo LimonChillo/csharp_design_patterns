@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 namespace bsp01
 {
-	public class Manager
+	 class Manager
 	{
 		public Manager ()
 		{
@@ -11,13 +11,17 @@ namespace bsp01
 
 		List<Duck> allDucks = new List<Duck>();
 
-		public void addDuck(Duck d, Quack q)
+		public void addDuck(Duck d)
 		{
 			allDucks.Add(d);
 		}
 		public void printAllDucks()
 		{
-
+			foreach (Duck d in allDucks) 
+			{
+				d.display ();
+				d.quack ();
+			}
 		}
 	}
 }
