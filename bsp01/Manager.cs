@@ -4,8 +4,20 @@ namespace bsp01
 {
 	 class Manager
 	{
-		public Manager ()
+		private static Manager instance;
+
+		private Manager ()
 		{
+		}
+
+
+		public static Manager getInstance()
+		{
+			if (instance == null) 
+			{
+				instance = new Manager ();
+			}
+			return instance;
 		}
 
 

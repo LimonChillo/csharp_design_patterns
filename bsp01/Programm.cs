@@ -11,7 +11,7 @@ namespace bsp01
         static void Main(string[] args)
         {
 
-			Manager m = new Manager ();
+			Manager m = Manager.getInstance ();
 
 
 			m.addDuck(new RedheadDuck(new quacken()));
