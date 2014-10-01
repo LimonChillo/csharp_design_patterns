@@ -39,6 +39,10 @@ namespace bsp02
 			foreach (Account a in allAccounts)
 				Console.WriteLine (a.getName () + " " + a.getBalance ());
 		}
+		public void desposit(double d)
+		{
+
+		}
 		
 
 	}
