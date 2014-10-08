@@ -16,9 +16,18 @@ namespace b_Iterator
 
 			m.addDuck(new RedheadDuck(new quacken()));
 			m.addDuck(new MallardDuck(new quietschen()));
-		
 
-			m.printAllDucks ();
+			DuckIterator myDuckIterator = m.createIterator ();
+
+			myDuckIterator.first();
+
+			while (!myDuckIterator.isDone ()) 
+			{
+				myDuckIterator.currentItem ().display();
+				myDuckIterator.currentItem().quack();
+				myDuckIterator.next();
+			}
+
             Console.ReadLine();
         }
     }

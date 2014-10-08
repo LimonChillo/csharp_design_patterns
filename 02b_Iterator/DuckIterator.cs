@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace b_Iterator
 {
-	public class DuckIterator : IIterator
+	 class DuckIterator : IIterator
 	{
 		private List<Duck> duckList;
-		private long current;
+		private int current;
 
 		public DuckIterator (List<Duck> list)
 		{
-			duckList = list;df
+			duckList = list;
 		}
 
 		public void first()
@@ -37,7 +37,7 @@ namespace b_Iterator
 			{
 				throw new Exception("Iterator is on the end!");
 			}
-			return duckList [current];
+			return duckList[current];
 		}
 	}
 }

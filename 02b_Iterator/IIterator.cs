@@ -2,12 +2,12 @@
 
 namespace b_Iterator
 {
-	public interface IIterator
+	interface IIterator
 	{
-		Duck first();
-		Duck next();
-		bool isDone();
-		Duck currentItem();
+		 void first();
+		 void next();
+		 bool isDone();
+		 Duck currentItem();
 	
 	}
 }
