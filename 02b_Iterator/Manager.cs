@@ -1,5 +1,11 @@
-﻿using System;
+﻿/*
+	David Kranewitter
+	Simon Hintersonnleinter
+*/
+
+using System;
 using System.Collections.Generic;
+
 namespace b_Iterator
 {
 	class Manager

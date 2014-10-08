@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+	David Kranewitter
+	Simon Hintersonnleinter
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
