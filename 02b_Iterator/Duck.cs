@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace bsp01
+namespace b_Iterator
 {
 	abstract class Duck
     {

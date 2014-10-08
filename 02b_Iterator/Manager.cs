@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace bsp01
+namespace b_Iterator
 {
 	class Manager
 	{

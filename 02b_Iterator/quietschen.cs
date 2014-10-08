@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace bsp01
+namespace b_Iterator
 {
 	class quietschen : Quack
     {
