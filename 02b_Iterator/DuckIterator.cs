@@ -11,9 +11,9 @@ namespace b_Iterator
 		private List<Duck> duckList;
 		private long current;
 
-		public DuckIterator ()
+		public DuckIterator (List<Duck> list)
 		{
-
+			duckList = list;
 		}
 
 		public void first()
