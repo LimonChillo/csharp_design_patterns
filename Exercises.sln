@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bsp01", "bsp01\bsp01.csproj", "{1E391A83-64B6-4E5C-880C-705FB383283C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A973D6A-FDA4-4773-9B7C-5FC8E7907FFE}"
 	ProjectSection(SolutionItems) = preProject
 		bsp01\Duck.cs = bsp01\Duck.cs
@@ -10,7 +8,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		bsp01\Quack.cs = bsp01\Quack.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bsp02", "bsp02\bsp02.csproj", "{582F15F5-5D04-4211-A1EF-806CB16A3136}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02b_Iterator", "02b_Iterator\02b_Iterator.csproj", "{F543F07F-88AE-4969-AC1E-8CB59652FFC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01a_Strategy", "01a_Strategy\01a_Strategy.csproj", "{1E391A83-64B6-4E5C-880C-705FB383283C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01b_Singelton", "01b_Singelton\01b_Singelton.csproj", "{582F15F5-5D04-4211-A1EF-806CB16A3136}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +28,14 @@ Global
 		{582F15F5-5D04-4211-A1EF-806CB16A3136}.Debug|x86.Build.0 = Debug|x86
 		{582F15F5-5D04-4211-A1EF-806CB16A3136}.Release|x86.ActiveCfg = Release|x86
 		{582F15F5-5D04-4211-A1EF-806CB16A3136}.Release|x86.Build.0 = Release|x86
+		{F543F07F-88AE-4969-AC1E-8CB59652FFC8}.Debug|x86.ActiveCfg = Debug|x86
+		{F543F07F-88AE-4969-AC1E-8CB59652FFC8}.Debug|x86.Build.0 = Debug|x86
+		{F543F07F-88AE-4969-AC1E-8CB59652FFC8}.Release|x86.ActiveCfg = Release|x86
+		{F543F07F-88AE-4969-AC1E-8CB59652FFC8}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = bsp02\bsp02.csproj
+		StartupItem = 02b_Iterator\02b_Iterator.csproj
 	EndGlobalSection
 EndGlobal
