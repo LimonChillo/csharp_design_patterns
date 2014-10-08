@@ -32,8 +32,14 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Duck.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="Programm.cs" />
+    <Compile Include="Quack.cs" />
+    <Compile Include="quacken.cs" />
+    <Compile Include="quietschen.cs" />
+    <Compile Include="test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
