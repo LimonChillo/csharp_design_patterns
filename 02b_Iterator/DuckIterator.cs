@@ -33,7 +33,8 @@ namespace b_Iterator
 
 		public Duck currentItem()
 		{
-			if (isDone ()) {
+			if (isDone()) 
+			{
 				throw new Exception("Iterator is on the end!");
 			}
 			return duckList [current];

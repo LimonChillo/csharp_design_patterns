@@ -27,13 +27,11 @@ namespace b_Iterator
 		{
 			allDucks.Add(d);
 		}
-		public void printAllDucks()
+
+		public DuckIterator createIterator()
 		{
-			foreach (Duck d in allDucks) 
-			{
-				d.display ();
-				d.quack ();
-			}
+			return new DuckIterator (allDucks);
 		}
+
 	}
 }
