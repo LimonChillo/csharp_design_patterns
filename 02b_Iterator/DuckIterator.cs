@@ -13,7 +13,7 @@ namespace b_Iterator
 
 		public DuckIterator (List<Duck> list)
 		{
-			duckList = list;
+			duckList = list;df
 		}
 
 		public void first()
