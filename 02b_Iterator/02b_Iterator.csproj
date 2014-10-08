@@ -39,7 +39,6 @@
     <Compile Include="Quack.cs" />
     <Compile Include="quacken.cs" />
     <Compile Include="quietschen.cs" />
-    <Compile Include="test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
