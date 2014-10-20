@@ -59,7 +59,7 @@ namespace bsp02
 		{
 			foreach (IObserver o in allObserver)
 			{
-				o.update ();
+				o.update ();x
 			}
 		}
 		
