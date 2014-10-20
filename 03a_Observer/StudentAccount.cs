@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace bsp02
+namespace bsp03
 {
 	 class StudentAccount: Account
 	{

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace bsp02
+namespace bsp03
 {
 	class Manager
 	{
@@ -37,7 +37,7 @@ namespace bsp02
 		public void removeAccount(Account a)
 		{
 			allAccounts.Remove (a);
-			notifyObserver (new EventXXX(a));
+			notifyObserver (new Event(a));
 		}
 		public void printAllAccounts()
 		{
@@ -59,7 +59,7 @@ namespace bsp02
 		{
 			foreach (IObserver o in allObserver)
 			{
-				o.update ();x
+				o.update ();
 			}
 		}
 		

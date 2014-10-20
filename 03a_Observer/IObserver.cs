@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace a_Observer
+namespace bsp03
 {
 	public interface IObserver
 	{
