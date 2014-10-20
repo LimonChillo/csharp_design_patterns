@@ -38,6 +38,7 @@
     <Compile Include="Manager.cs" />
     <Compile Include="StudentAccount.cs" />
     <Compile Include="IObserver.cs" />
+    <Compile Include="ConcreteObserver.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

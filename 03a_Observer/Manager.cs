@@ -10,6 +10,9 @@ namespace bsp02
 
 		private List<Account> allAccounts = new List<Account> ();
 
+		private List<IObserver> allObservers = new List<IObserver> ();
+
+
 		private Manager ()
 		{
 
@@ -28,20 +31,36 @@ namespace bsp02
 		public void addAccount(Account a)
 		{
 			allAccounts.Add (a);
+			notifyObserver (new EventXXX(a));
 		}
 
 		public void removeAccount(Account a)
 		{
 			allAccounts.Remove (a);
+			notifyObserver (new EventXXX(a));
 		}
 		public void printAllAccounts()
 		{
 			foreach (Account a in allAccounts)
 				Console.WriteLine (a.getName () + " " + a.getBalance ());
 		}
-		public void desposit(double d)
-		{
 
+		public void registerObserver(IObserver o)
+		{
+			allObservers.Add(o)
+		}
+
+		public void removeObserver(IObserver o)
+		{
+			allObservers.Remove(o)
+		}
+
+		public void notifyObservers()
+		{
+			foreach (IObserver o in allObserver)
+			{
+				o.update ();
+			}
 		}
 		
 
