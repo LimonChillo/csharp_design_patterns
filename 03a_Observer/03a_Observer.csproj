@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{582F15F5-5D04-4211-A1EF-806CB16A3136}</ProjectGuid>
+    <ProjectGuid>{DAAC47AC-CDFF-4C27-A1E8-F69A085138AC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>bsp02</RootNamespace>
-    <AssemblyName>bsp02</AssemblyName>
+    <RootNamespace>a_Observer</RootNamespace>
+    <AssemblyName>03a_Observer</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,9 +34,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StudentAccount.cs" />
     <Compile Include="Account.cs" />
     <Compile Include="Manager.cs" />
+    <Compile Include="StudentAccount.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
