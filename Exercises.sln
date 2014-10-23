@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01b_Singelton", "01b_Singel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03a_Observer", "03a_Observer\03a_Observer.csproj", "{DAAC47AC-CDFF-4C27-A1E8-F69A085138AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03b_Observer_Delegate", "03b_Observer_Delegate\03b_Observer_Delegate.csproj", "{90376D31-DBBA-4882-91D8-B9D7B647C5CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -30,6 +32,10 @@ Global
 		{582F15F5-5D04-4211-A1EF-806CB16A3136}.Debug|x86.Build.0 = Debug|x86
 		{582F15F5-5D04-4211-A1EF-806CB16A3136}.Release|x86.ActiveCfg = Release|x86
 		{582F15F5-5D04-4211-A1EF-806CB16A3136}.Release|x86.Build.0 = Release|x86
+		{90376D31-DBBA-4882-91D8-B9D7B647C5CC}.Debug|x86.ActiveCfg = Debug|x86
+		{90376D31-DBBA-4882-91D8-B9D7B647C5CC}.Debug|x86.Build.0 = Debug|x86
+		{90376D31-DBBA-4882-91D8-B9D7B647C5CC}.Release|x86.ActiveCfg = Release|x86
+		{90376D31-DBBA-4882-91D8-B9D7B647C5CC}.Release|x86.Build.0 = Release|x86
 		{DAAC47AC-CDFF-4C27-A1E8-F69A085138AC}.Debug|x86.ActiveCfg = Debug|x86
 		{DAAC47AC-CDFF-4C27-A1E8-F69A085138AC}.Debug|x86.Build.0 = Debug|x86
 		{DAAC47AC-CDFF-4C27-A1E8-F69A085138AC}.Release|x86.ActiveCfg = Release|x86
