@@ -8,7 +8,7 @@ namespace bsp03
 		{
 			Weatherstation w1 = new Weatherstation();
 
-			View temperatureView = new View("temperatureView");
+			View temperatureView = new TemperaturView("temperatureView");
 			View humidityView = new View("humidityView");
 
 			w1.registerObserver(temperatureView);

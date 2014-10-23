@@ -10,9 +10,9 @@ namespace bsp03
 		private string name; 
 
 
-		private double temperature; 
-		private double humidity;
-		private double air_pressure;
+		protected double temperature; 
+		protected double humidity;
+		protected double air_pressure;
 
 
 		public View (string name)
@@ -28,9 +28,9 @@ namespace bsp03
 			printWeather ();
 		}
 
-		public void printWeather()
+		public virtual void printWeather()
 		{
-			Console.WriteLine ("New Changes! View: " + name + "| temperture: " + temperature + " humidity: " + humidity + " airpressure: " + air_pressure);
+			Console.Write("New Changes! View: ");
 		}
 	}
 }
