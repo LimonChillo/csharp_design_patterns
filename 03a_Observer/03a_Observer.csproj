@@ -40,6 +40,7 @@
     <Compile Include="Weatherstation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="TemperaturView.cs" />
+    <Compile Include="HumidityView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

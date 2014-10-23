@@ -9,7 +9,7 @@ namespace bsp03
 			Weatherstation w1 = new Weatherstation();
 
 			View temperatureView = new TemperaturView("temperatureView");
-			View humidityView = new View("humidityView");
+			View humidityView = new HumidityView("humidityView");
 
 			w1.registerObserver(temperatureView);
 			w1.registerObserver(humidityView);
