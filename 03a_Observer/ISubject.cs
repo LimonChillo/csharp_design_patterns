@@ -7,11 +7,11 @@ using System;
 
 namespace bsp03
 {
-	public interface ISubject
+	interface ISubject
 	{
-		void registerObserver ();
-		void removeObserver ();
-		void notifyObservers ();
+		 void registerObserver(IObserver o);
+		 bool removeObserver (IObserver o);
+		 void notifyObservers ();
 	}
 }
 
