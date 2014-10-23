@@ -53,7 +53,7 @@ namespace bsp03
 		{
 			foreach (View o in allObservers) 
 			{
-				o.update();
+				o.update(new WheaterChangeEvent(humidity,temperature,air_pressure));
 			}
 		}
 
