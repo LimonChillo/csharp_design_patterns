@@ -5,7 +5,7 @@ namespace bsp03
 	public interface IObserver
 	{
 	
-		 void update();
+		void update(WheaterChangeEvent w);
 	}
 }
 

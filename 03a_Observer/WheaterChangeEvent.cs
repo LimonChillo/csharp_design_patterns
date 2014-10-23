@@ -5,9 +5,9 @@ namespace bsp03
 	public class WheaterChangeEvent:EventArgs
 	{
 
-		float humidty;
-		float temperture;
-		float pressure;
+		public double humidty;
+		public double temperture;
+		public double pressure;
 
 		public WheaterChangeEvent (float humidty,float temperture,float pressure)
 		{
