@@ -7,9 +7,11 @@ using System;
 
 namespace bsp03b
 {
-	public interface IObserver
+	public interface IObservable
 	{
-		void Notify(WheaterChangeEvent w);
+		void Register(IObserver o);
+		void UnRegister(IObserver o);
+
 	}
 }
 

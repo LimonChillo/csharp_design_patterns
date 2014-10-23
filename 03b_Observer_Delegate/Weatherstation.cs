@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace bsp03b
 {
-	public class Weatherstation:ISubject
+	public class Weatherstation:IObservable
 	{
 		public Weatherstation ()
 		{
@@ -25,7 +25,6 @@ namespace bsp03b
 			this.temperature = temperature;
 			this.humidity = humidity;
 			this.air_pressure = air_pressure;
-			notifyObservers();
 		}
 
 		public void registerObserver(IObserver o) 
@@ -38,13 +37,15 @@ namespace bsp03b
 			return allObservers.Remove(o);
 		}
 
-		public void notifyObservers() 
-		{
-			foreach (IObserver o in allObservers) 
-			{
-				o.update(new WheaterChangeEvent(humidity,temperature,air_pressure));
+		public void NotifyObservers(WheaterChangeEvent w) { 
+		
+			foreach(IObserver o in allObservers) { 
+
+				o.Notify(w); 
+
 			}
 		}
+
 	}
 }
 
