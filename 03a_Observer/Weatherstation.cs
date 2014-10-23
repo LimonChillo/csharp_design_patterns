@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace bsp03
 {
@@ -8,7 +9,7 @@ namespace bsp03
 		{
 		}
 
-		private List<IObserver> observers = new ArrayList<IObserver>();
+		private List<IObserver> allObservers = new List<IObserver>();
 		private double temperature; 
 		private double humidity;
 
@@ -29,19 +30,19 @@ namespace bsp03
 			notifyObservers();
 		}
 
-		public void registerObserver(WeatherObserver o) 
+		public void registerObserver(View v) 
 		{ 
-			observers.add(o);
+			allObservers.Add(v);
 		}
 
-		public boolean removeObserver(WeatherObserver o) 
+		public bool removeObserver(View v) 
 		{ 
-			return observers.remove(o);
+			return allObservers.Remove(v);
 		}
 
 		private void notifyObservers() 
 		{
-			foreach (View o in observers) 
+			foreach (View o in allObservers) 
 			{
 				o.update();
 			}
