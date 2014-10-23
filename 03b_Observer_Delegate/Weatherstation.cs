@@ -6,9 +6,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace bsp03
+namespace bsp03b
 {
-	public class Weatherstation
+	public class Weatherstation:ISubject
 	{
 		public Weatherstation ()
 		{

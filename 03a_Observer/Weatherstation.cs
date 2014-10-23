@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace bsp03
 {
-	public class Weatherstation
+	public class Weatherstation:ISubject
 	{
 		public Weatherstation ()
 		{

@@ -36,11 +36,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="HumidityView.cs" />
     <Compile Include="IObserver.cs" />
-    <Compile Include="Subject.cs" />
     <Compile Include="TemperaturView.cs" />
     <Compile Include="View.cs" />
     <Compile Include="Weatherstation.cs" />
     <Compile Include="WheaterChangeEvent.cs" />
+    <Compile Include="ISubject.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,7 +7,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace bsp03
+namespace bsp03b
 {
 	public class View:IObserver
 	{

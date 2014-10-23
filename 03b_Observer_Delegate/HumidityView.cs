@@ -5,7 +5,7 @@
 
 using System;
 
-namespace bsp03
+namespace bsp03b
 {
 	public class HumidityView:View
 	{

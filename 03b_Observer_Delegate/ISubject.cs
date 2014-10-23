@@ -5,9 +5,9 @@
 
 using System;
 
-namespace bsp03
+namespace bsp03b
 {
-	public interface Subject
+	public interface ISubject
 	{
 		void registerObserver ();
 		void removeObserver ();
