@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace a_Observer
+namespace bsp03
 {
 	public class Weatherstation
 	{
@@ -41,7 +41,7 @@ namespace a_Observer
 
 		private void notifyObservers() 
 		{
-			for (WeatherObserver o : observers) 
+			foreach (View o in observers) 
 			{
 				o.update();
 			}
