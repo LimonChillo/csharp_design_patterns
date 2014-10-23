@@ -38,7 +38,7 @@
     <Compile Include="WheaterChangeEvent.cs" />
     <Compile Include="Subject.cs" />
     <Compile Include="Weatherstation.cs" />
-    <Compile Include="programm.cs" />
+    <Compile Include="Program.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
