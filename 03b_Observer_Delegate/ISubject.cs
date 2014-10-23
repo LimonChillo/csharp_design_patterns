@@ -9,8 +9,8 @@ namespace bsp03b
 {
 	public interface ISubject
 	{
-		void registerObserver ();
-		void removeObserver ();
+		void registerObserver (IObserver o);
+		bool removeObserver (IObserver o);
 		void notifyObservers ();
 	}
 }

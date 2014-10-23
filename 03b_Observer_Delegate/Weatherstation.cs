@@ -28,19 +28,19 @@ namespace bsp03b
 			notifyObservers();
 		}
 
-		public void registerObserver(View v) 
+		public void registerObserver(IObserver o) 
 		{ 
-			allObservers.Add(v);
+			allObservers.Add(o);
 		}
 
-		public bool removeObserver(View v) 
+		public bool removeObserver(IObserver o) 
 		{ 
-			return allObservers.Remove(v);
+			return allObservers.Remove(o);
 		}
 
-		private void notifyObservers() 
+		public void notifyObservers() 
 		{
-			foreach (View o in allObservers) 
+			foreach (IObserver o in allObservers) 
 			{
 				o.update(new WheaterChangeEvent(humidity,temperature,air_pressure));
 			}
