@@ -10,8 +10,10 @@ namespace bsp03
 		}
 
 		private List<IObserver> allObservers = new List<IObserver>();
+
 		private double temperature; 
 		private double humidity;
+		private double air_pressure;
 
 		public double getTemperature() 
 		{ 
@@ -23,10 +25,17 @@ namespace bsp03
 			return humidity; 
 		}
 
-		public void setData(double temperature, double humidity)
+
+		public double getAir_pressure() 
+		{ 
+			return air_pressure;
+		}
+
+		public void setData(double temperature, double humidity, double getAir_pressure)
 		{ 
 			this.temperature = temperature;
 			this.humidity = humidity;
+			this.air_pressure = air_pressure;
 			notifyObservers();
 		}
 
