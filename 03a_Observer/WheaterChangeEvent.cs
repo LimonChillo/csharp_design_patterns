@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+	David Kranewitter
+	Simon Hintersonnleitner
+*/
+
+using System;
 
 namespace bsp03
 {

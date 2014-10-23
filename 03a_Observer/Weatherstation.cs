@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+	David Kranewitter
+	Simon Hintersonnleitner
+*/
+
+using System;
 using System.Collections.Generic;
 
 namespace bsp03
@@ -14,22 +19,6 @@ namespace bsp03
 		private double temperature; 
 		private double humidity;
 		private double air_pressure;
-
-		public double getTemperature() 
-		{ 
-			return temperature;
-		}
-
-		public double getHumidity() 
-		{
-			return humidity; 
-		}
-
-
-		public double getAir_pressure() 
-		{ 
-			return air_pressure;
-		}
 
 		public void setData(double temperature, double humidity, double air_pressure)
 		{ 
@@ -56,8 +45,6 @@ namespace bsp03
 				o.update(new WheaterChangeEvent(humidity,temperature,air_pressure));
 			}
 		}
-
-	
 	}
 }
 

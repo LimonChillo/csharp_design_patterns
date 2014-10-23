@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+	David Kranewitter
+	Simon Hintersonnleitner
+*/
+
+using System;
 using System.IO;
 using System.Text;
 
@@ -9,11 +14,9 @@ namespace bsp03
 
 		private string name; 
 
-
 		protected double temperature; 
 		protected double humidity;
 		protected double air_pressure;
-
 
 		public View (string name)
 		{
@@ -30,7 +33,7 @@ namespace bsp03
 
 		public virtual void printWeather()
 		{
-			Console.Write("New Changes! View: ");
+			Console.Write("Changes detected! " + name + " : ");
 		}
 	}
 }

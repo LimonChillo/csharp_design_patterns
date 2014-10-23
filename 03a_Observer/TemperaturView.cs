@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+	David Kranewitter
+	Simon Hintersonnleitner
+*/
+
+using System;
 
 namespace bsp03
 {
@@ -11,9 +16,8 @@ namespace bsp03
 		public override void printWeather ()
 		{
 			base.printWeather ();
-			Console.WriteLine (" temperatur: " + temperature);
+			Console.WriteLine (temperature);
 		}
-
 	}
 }
 
