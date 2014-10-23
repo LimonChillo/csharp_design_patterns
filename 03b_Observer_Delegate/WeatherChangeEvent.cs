@@ -5,16 +5,16 @@
 
 using System;
 
-namespace bsp03b
+namespace b_Observer_Delegate
 {
-	public class WheaterChangeEvent:EventArgs
+	public class WeatherChangeEvent:EventArgs
 	{
 
 		public double humidty;
 		public double temperture;
 		public double pressure;
 
-		public WheaterChangeEvent (double humidty,double temperture,double pressure)
+		public WeatherChangeEvent (double humidty,double temperture,double pressure)
 		{
 			this.humidty = humidty;
 			this.temperture = temperture;

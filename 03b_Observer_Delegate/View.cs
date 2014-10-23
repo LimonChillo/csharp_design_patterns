@@ -1,39 +1,19 @@
-﻿/*
-	David Kranewitter
-	Simon Hintersonnleitner
-*/
+﻿using System;
 
-using System;
-using System.IO;
-using System.Text;
-
-namespace bsp03b
+namespace b_Observer_Delegate
 {
-	public class View:IObserver
+	public class View
 	{
-
-		private string name; 
-
-		protected double temperature; 
-		protected double humidity;
-		protected double air_pressure;
-
-		public View (string name)
+		public View ()
 		{
-			this.name = name;
+
+
 		}
 
-		public void update(WheaterChangeEvent w)
-		{
-			this.temperature = w.temperture;
-			this.humidity = w.humidty;
-			this.air_pressure = w.pressure;
-			printWeather ();
-		}
 
-		public virtual void printWeather()
+		public void AskWeatherChanged(WeatherChangeEvent w) 
 		{
-			Console.Write("Changes detected! " + name + " : ");
+			Console.Write("The new ask price is:" + w.temperture + "\r\n"); 
 		}
 	}
 }
