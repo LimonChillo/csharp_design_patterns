@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Text;
 
 namespace bsp03
 {
@@ -23,6 +25,12 @@ namespace bsp03
 			this.temperature = w.temperture;
 			this.humidity = w.humidty;
 			this.air_pressure = w.pressure;
+			printWeather ();
+		}
+
+		public void printWeather()
+		{
+			Console.WriteLine ("New Changes! View: " + name + "| temperture: " + temperature + " humidity: " + humidity + " airpressure: " + air_pressure);
 		}
 	}
 }
