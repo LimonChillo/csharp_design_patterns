@@ -42,6 +42,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = 02b_Iterator\02b_Iterator.csproj
+		StartupItem = 03a_Observer\03a_Observer.csproj
 	EndGlobalSection
 EndGlobal
