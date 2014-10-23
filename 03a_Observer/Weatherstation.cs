@@ -31,7 +31,7 @@ namespace bsp03
 			return air_pressure;
 		}
 
-		public void setData(double temperature, double humidity, double getAir_pressure)
+		public void setData(double temperature, double humidity, double air_pressure)
 		{ 
 			this.temperature = temperature;
 			this.humidity = humidity;

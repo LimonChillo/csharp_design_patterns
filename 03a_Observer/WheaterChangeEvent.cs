@@ -9,7 +9,7 @@ namespace bsp03
 		public double temperture;
 		public double pressure;
 
-		public WheaterChangeEvent (float humidty,float temperture,float pressure)
+		public WheaterChangeEvent (double humidty,double temperture,double pressure)
 		{
 			this.humidty = humidty;
 			this.temperture = temperture;

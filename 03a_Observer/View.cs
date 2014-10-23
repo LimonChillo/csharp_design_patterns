@@ -4,7 +4,7 @@ using System.Text;
 
 namespace bsp03
 {
-	class View:IObserver
+	public class View:IObserver
 	{
 
 		private string name; 
