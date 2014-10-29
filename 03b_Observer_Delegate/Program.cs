@@ -6,10 +6,10 @@ namespace b_Observer_Delegate
 	{
 		static void Main(string[] args)
 		{
-			View v1 = new View ();x
-			WeatherStation w1 = new WeatherStation ();
+			View v1 = new View ();
+			Weatherstation w1 = new Weatherstation ();
 
-			WeatherStation.AskWeatherChangeDelegate aDelegate = new WeatherStation.AskWeatherChangeDelegate (v1.AskWeatherChanged);
+			Weatherstation.AskWeatherDelegate aDelegate = new Weatherstation.AskWeatherDelegate (v1.AskWeatherChanged);
 
 			w1.AskWeatherChanged += aDelegate;
 
