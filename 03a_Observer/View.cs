@@ -23,9 +23,9 @@ namespace bsp03
 			this.name = name;
 		}
 
-		public void update(WheaterChangeEvent w)
+		public void update(WeatherChangeEvent w)
 		{
-			this.temperature = w.temperture;
+			this.temperature = w.temperature;
 			this.humidity = w.humidty;
 			this.air_pressure = w.pressure;
 			printWeather ();

@@ -7,17 +7,17 @@ using System;
 
 namespace bsp03
 {
-	public class WheaterChangeEvent:EventArgs
+	public class WeatherChangeEvent:EventArgs
 	{
 
 		public double humidty;
-		public double temperture;
+		public double temperature;
 		public double pressure;
 
-		public WheaterChangeEvent (double humidty,double temperture,double pressure)
+		public WeatherChangeEvent (double humidty,double temperture,double pressure)
 		{
 			this.humidty = humidty;
-			this.temperture = temperture;
+			this.temperature = temperture;
 			this.pressure = pressure;
 		}
 	}

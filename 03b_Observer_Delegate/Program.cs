@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+	David Kranewitter
+	Simon Hintersonnleitner
+*/
+
+using System;
 
 namespace b_Observer_Delegate
 {
@@ -6,19 +11,10 @@ namespace b_Observer_Delegate
 	{
 		static void Main(string[] args)
 		{
-			View v1 = new View ();
-			Weatherstation w1 = new Weatherstation ();
-
-			Weatherstation.AskWeatherDelegate aDelegate = new Weatherstation.AskWeatherDelegate (v1.AskWeatherChanged);
-
-			w1.AskWeatherChanged += aDelegate;
-
-
-			w1.AskWeather = 1; 
-
-
-			w1.AskWeatherChanged -= aDelegate;
-
+			View view = new View();
+			view.WeatherDataChanged +=  new View.WeatherDataChangedHandler(view.PrintWeatherData);
+			WeatherChangeEvent data = new WeatherChangeEvent(97,28,1.013);
+			view.SetData = data;
 		}
 	}
 }

@@ -42,7 +42,7 @@ namespace bsp03
 		{
 			foreach (IObserver o in allObservers) 
 			{
-				o.update(new WheaterChangeEvent(humidity,temperature,air_pressure));
+				o.update(new WeatherChangeEvent(humidity,temperature,air_pressure));
 			}
 		}
 	}

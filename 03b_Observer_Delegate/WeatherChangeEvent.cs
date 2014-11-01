@@ -10,15 +10,30 @@ namespace b_Observer_Delegate
 	public class WeatherChangeEvent:EventArgs
 	{
 
-		public double humidty;
-		public double temperture;
-		public double pressure;
+		private double humidity;
+		private double temperture;
+		private double pressure;
 
-		public WeatherChangeEvent (double humidty,double temperture,double pressure)
+		public WeatherChangeEvent (double humidity,double temperture,double pressure)
 		{
-			this.humidty = humidty;
+			this.humidity = humidity;
 			this.temperture = temperture;
 			this.pressure = pressure;
+		}
+
+		public double getTemperature()
+		{
+			return temperture;
+		}
+
+		public double getHumidity()
+		{
+			return humidity;
+		}
+
+		public double getPressure()
+		{
+			return pressure;
 		}
 	}
 }
