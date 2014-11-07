@@ -35,8 +35,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="EncryptInputStream.cs" />
     <Compile Include="DecryptInputStream.cs" />
+    <Compile Include="CryptInputStream.cs" />
+    <Compile Include="EncryptInputStream.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
