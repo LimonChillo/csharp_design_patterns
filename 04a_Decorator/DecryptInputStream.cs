@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+	David Kranewitter
+	Simon Hintersonnleinter
+*/
+using System;
 
 namespace a_Decorator
 {
