@@ -4,6 +4,7 @@
 */
 using System;
 using System.IO;
+using System.Text;
 
 namespace a_Decorator
 {
@@ -46,7 +47,18 @@ namespace a_Decorator
 		{
 			var result = str.Read(buffer, offset, count);
 
-			/* HERE I COULD CALL A CUSTOM EVENT */ 
+			for (int i = 0; i < buffer.Length; i++) 
+			{
+				buffer[i] += 13;
+
+				if (buffer[i] > 126)
+					buffer[i] -= 94;
+
+				Console.Write((char)(buffer[i])); 
+			}
+
+			Console.WriteLine ();
+
 			return result;
 		}
 
