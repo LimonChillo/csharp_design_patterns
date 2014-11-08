@@ -20,7 +20,7 @@ namespace a_Decorator
 
 			for (int i = 0; i < buffer.Length; i++) 
 			{
-				buffer[i] += 13;
+				buffer[i] -= 13;
 
 				if (buffer[i] < 33)
 					buffer[i] += 94;
@@ -28,7 +28,6 @@ namespace a_Decorator
 
 			return result;
 		}
-
 	}
 }
 
