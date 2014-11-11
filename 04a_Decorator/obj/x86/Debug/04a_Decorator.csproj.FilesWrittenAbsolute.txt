@@ -1,0 +1,5 @@
+/Users/David/Documents/FH/Design Patterns/Projects/04a_Decorator/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/David/Documents/FH/Design Patterns/Projects/04a_Decorator/bin/Debug/04a_Decorator.exe.mdb
+/Users/David/Documents/FH/Design Patterns/Projects/04a_Decorator/bin/Debug/04a_Decorator.exe
+/Users/David/Documents/FH/Design Patterns/Projects/04a_Decorator/obj/x86/Debug/04a_Decorator.exe
+/Users/David/Documents/FH/Design Patterns/Projects/04a_Decorator/obj/x86/Debug/04a_Decorator.exe.mdb

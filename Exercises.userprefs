@@ -1,0 +1,15 @@
+﻿<Properties GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="04a_Decorator/CryptInputStream.cs" Line="9" Column="9" />
+      <File FileName="04a_Decorator/DecryptInputStream.cs" Line="3" Column="3" />
+      <File FileName="04a_Decorator/Program.cs" Line="26" Column="26" />
+      <File FileName="04a_Decorator/EncryptInputStream.cs" Line="3" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

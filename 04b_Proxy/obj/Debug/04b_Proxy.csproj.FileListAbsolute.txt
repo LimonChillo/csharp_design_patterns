@@ -1,0 +1,9 @@
+Z:\PATTERN\04b_Proxy\04b_Proxy\bin\Debug\04b_Proxy.exe.config
+Z:\PATTERN\04b_Proxy\04b_Proxy\bin\Debug\04b_Proxy.exe
+Z:\PATTERN\04b_Proxy\04b_Proxy\bin\Debug\04b_Proxy.pdb
+Z:\PATTERN\04b_Proxy\04b_Proxy\obj\Debug\04b_Proxy.csprojResolveAssemblyReference.cache
+Z:\PATTERN\04b_Proxy\04b_Proxy\obj\Debug\_04b_Proxy.Form1.resources
+Z:\PATTERN\04b_Proxy\04b_Proxy\obj\Debug\_04b_Proxy.Properties.Resources.resources
+Z:\PATTERN\04b_Proxy\04b_Proxy\obj\Debug\04b_Proxy.csproj.GenerateResource.Cache
+Z:\PATTERN\04b_Proxy\04b_Proxy\obj\Debug\04b_Proxy.exe
+Z:\PATTERN\04b_Proxy\04b_Proxy\obj\Debug\04b_Proxy.pdb

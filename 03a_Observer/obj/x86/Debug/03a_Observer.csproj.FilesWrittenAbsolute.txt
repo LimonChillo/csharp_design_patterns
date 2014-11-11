@@ -1,0 +1,5 @@
+/Users/David/Documents/FH/Design Patterns/Projects/03a_Observer/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/David/Documents/FH/Design Patterns/Projects/03a_Observer/bin/Debug/03a_Observer.exe.mdb
+/Users/David/Documents/FH/Design Patterns/Projects/03a_Observer/bin/Debug/03a_Observer.exe
+/Users/David/Documents/FH/Design Patterns/Projects/03a_Observer/obj/x86/Debug/03a_Observer.exe
+/Users/David/Documents/FH/Design Patterns/Projects/03a_Observer/obj/x86/Debug/03a_Observer.exe.mdb
