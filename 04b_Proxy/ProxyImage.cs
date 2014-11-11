@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+    David Kranewitter
+    Simon Hintersonnleitner
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,44 +18,34 @@ namespace _04b_Proxy
 {
     class ProxyImage : AbstractImage
     {
-
         RealImage ri;
         BackgroundWorker bgw;
-        PictureBox pb;
-        string url;
-
-        public ProxyImage(PictureBox pb, string url, RealImage ri)
+       
+        public ProxyImage( RealImage ri)
         {
-            this.pb = pb;
-            this.url = url;
             this.ri = ri;
         }
 
-        public Image getImage()
+        public override Image getImage()
         {
             bgw = new BackgroundWorker();
             bgw.WorkerReportsProgress = true;
-            bgw.DoWork += new DoWorkEventHandler(doSomething);
+            bgw.DoWork += new DoWorkEventHandler(replaceImage);
             bgw.RunWorkerAsync();
 
-            return loadLocalImage(url); 
+            return loadLocalImage(); 
         }
 
-
-        private Image loadLocalImage(String fileName)
+        private Image loadLocalImage()
         {
-            return Image.FromFile(fileName);
+            return Image.FromFile("WAITING.jpg");
         }
 
-
-        private void doSomething(object sender, DoWorkEventArgs e)
+        private void replaceImage(object sender, DoWorkEventArgs e)
         {
-            pb.Image = ri.getImage();
+            Form1.pb.Image = ri.getImage();
             bgw.ReportProgress(100);
         }
-
-     
-      
-        
+  
     }
 }

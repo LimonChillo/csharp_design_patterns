@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+    David Kranewitter
+    Simon Hintersonnleitner
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +19,7 @@ namespace _04b_Proxy
     public partial class Form1 : Form
     {
         public readonly BackgroundWorker bgw;
-        MyPictureBox pb = new MyPictureBox();
+        public static MyPictureBox pb = new MyPictureBox();
         
         public Form1()
         {
@@ -22,12 +27,12 @@ namespace _04b_Proxy
           
             pb.Size = new Size(800, 600);
             Controls.Add(pb);
+
             RealImage ri = new RealImage("http://student.cosy.sbg.ac.at/~anaderli/fh/Koala.jpg");
-            ProxyImage pi = new ProxyImage(pb, "WAITING.jpg",ri);
+            ProxyImage pi = new ProxyImage(ri);
             pb.Image = pi.getImage();
 
         }
-
 
     }
 }

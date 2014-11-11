@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+    David Kranewitter
+    Simon Hintersonnleitner
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +13,7 @@ using System.Drawing;
 
 namespace _04b_Proxy
 {
-    class MyPictureBox : PictureBox
+    public class MyPictureBox : PictureBox
     {
         public MyPictureBox ()
         {

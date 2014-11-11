@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+    David Kranewitter
+    Simon Hintersonnleitner
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +23,7 @@ namespace _04b_Proxy
             this.url = url;
         }
 
-        public Image getImage()
+        public override Image getImage()
         {
             WebRequest requestPic = WebRequest.Create(url);
             WebResponse responsePic = requestPic.GetResponse();
