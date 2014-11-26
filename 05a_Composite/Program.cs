@@ -11,7 +11,12 @@ namespace a_Composite
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+
+			ItemList myItemList = new ItemList ("root");
+
+			Cd cd = new Cd ("Test",10.0);
+
+
 		}
 	}
 }
