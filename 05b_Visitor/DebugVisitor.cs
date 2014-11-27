@@ -15,7 +15,13 @@ namespace b_Visitor
 
 		}
 
-		override void visitComposite(Composite composite)
+
+		override void visitComposite(ItemList itemList)
+		{
+
+		}
+
+		override void visitItem(Item item)
 		{
 			
 		}

@@ -38,6 +38,11 @@
     <Compile Include="AbstractVisitor.cs" />
     <Compile Include="DebugVisitor.cs" />
     <Compile Include="XMLWriterVisitor.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="Cd.cs" />
+    <Compile Include="IItem.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemList.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
