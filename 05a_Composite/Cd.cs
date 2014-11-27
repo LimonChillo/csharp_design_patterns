@@ -10,6 +10,12 @@ namespace a_Composite
 		public Cd (string name, float price):base(name,price)
 		{
 		}
+
+		public override void print (int level)
+		{
+			base.print(level);
+			Console.WriteLine("<cd name="+ name+ " price="+price+" />");
+		}
 	}
 }
 

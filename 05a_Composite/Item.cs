@@ -5,7 +5,7 @@ using System;
 
 namespace a_Composite
 {
-	public abstract class Item
+	public abstract class Item:IItem
 	{
 		protected string name;
 		protected float price;
@@ -21,19 +21,26 @@ namespace a_Composite
 			return name;
 		}
 
-		public string setName(string name)
+		public void setName(string name)
 		{
 			this.name = name;
 		}
 
-		public string getPrice()
+		public float getPrice()
 		{
 			return price;
 		}
 
-		public string setPrice(float price)
+		public void setPrice(float price)
 		{
 			this.price = price;
+		}
+
+		public virtual void print(int level)
+		{
+			for (int i = 0; i < level; i++)
+				Console.Write ("  ");
+
 		}
 	}
 }

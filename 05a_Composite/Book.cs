@@ -13,6 +13,12 @@ namespace a_Composite
 		{
 			this.isbn = isbn;
 		}
+
+		public override void print (int level)
+		{
+			base.print (level);
+			Console.WriteLine("<book name="+ name+ " price="+price+" isbn="+isbn+" />");
+		}
 	}
 }
 

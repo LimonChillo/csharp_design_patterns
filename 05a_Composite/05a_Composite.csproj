@@ -39,6 +39,7 @@
     <Compile Include="Cd.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="IItem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
