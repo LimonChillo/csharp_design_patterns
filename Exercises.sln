@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04a_Decorator", "04a_Decora
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05a_Composite", "05a_Composite\05a_Composite.csproj", "{0C76614B-DD13-4191-8825-E0FDF8DBC9FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05b_Visitor", "05b_Visitor\05b_Visitor.csproj", "{33852466-C805-40FD-9996-038F41894A9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -32,6 +34,10 @@ Global
 		{1E391A83-64B6-4E5C-880C-705FB383283C}.Debug|x86.Build.0 = Debug|x86
 		{1E391A83-64B6-4E5C-880C-705FB383283C}.Release|x86.ActiveCfg = Release|x86
 		{1E391A83-64B6-4E5C-880C-705FB383283C}.Release|x86.Build.0 = Release|x86
+		{33852466-C805-40FD-9996-038F41894A9B}.Debug|x86.ActiveCfg = Debug|x86
+		{33852466-C805-40FD-9996-038F41894A9B}.Debug|x86.Build.0 = Debug|x86
+		{33852466-C805-40FD-9996-038F41894A9B}.Release|x86.ActiveCfg = Release|x86
+		{33852466-C805-40FD-9996-038F41894A9B}.Release|x86.Build.0 = Release|x86
 		{582F15F5-5D04-4211-A1EF-806CB16A3136}.Debug|x86.ActiveCfg = Debug|x86
 		{582F15F5-5D04-4211-A1EF-806CB16A3136}.Debug|x86.Build.0 = Debug|x86
 		{582F15F5-5D04-4211-A1EF-806CB16A3136}.Release|x86.ActiveCfg = Release|x86
