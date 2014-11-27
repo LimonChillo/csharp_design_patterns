@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Xml;
+
 
 namespace b_Visitor
 {
@@ -14,7 +16,11 @@ namespace b_Visitor
 
 			ItemList allItems = readNodes(root);
 
+			DebugVisitor dv = new DebugVisitor(); 
 
+			allItems.accept(dv);
+
+			dv.display();
 
 			//allItems.print (0);
 			//Console.WriteLine();

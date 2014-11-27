@@ -66,6 +66,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = 05a_Composite\05a_Composite.csproj
+		StartupItem = 05b_Visitor\05b_Visitor.csproj
 	EndGlobalSection
 EndGlobal

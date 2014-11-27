@@ -15,8 +15,9 @@ namespace b_Visitor
 			this.name = name;
 			this.price = price;
 		}
+			
 
-		override void accept(DebugVisitor visitor) 
+		public void accept(AbstractVisitor visitor) 
 		{
 			visitor.visitItem(this);
 		}

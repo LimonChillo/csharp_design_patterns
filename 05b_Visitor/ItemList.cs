@@ -13,9 +13,9 @@ namespace b_Visitor
 		List<IItem> allItems = new List<IItem>();
 		string name;
 
-		void accept(AbstractVisitor visitor) 
+		public void accept(AbstractVisitor visitor) 
 		{
-			foreach (Item i in allItems) {
+			foreach (IItem i in allItems) {
 				i.accept(visitor);
 			}
 		}

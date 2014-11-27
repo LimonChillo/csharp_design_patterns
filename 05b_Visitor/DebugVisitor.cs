@@ -16,14 +16,28 @@ namespace b_Visitor
 		}
 
 
-		override void visitComposite(ItemList itemList)
+		public override void visitComposite(ItemList itemList)
 		{
+			Console.WriteLine("yolo");
+		}
+
+		public override void visitItem(Item item)
+		{
+
+			if (item.GetType() == typeof(Book))
+			{
+				Console.WriteLine("Book");
+			}
+			else 
+			{
+				Console.WriteLine("CD");
+			}
 
 		}
 
-		override void visitItem(Item item)
+		public override void display()
 		{
-			
+
 		}
 	}
 }

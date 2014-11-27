@@ -7,11 +7,16 @@ using System;
 
 namespace b_Visitor
 {
-	public class AbstractVisitor
+	public abstract class AbstractVisitor
 	{
-		virtual void visitComposite(ItemList itemList);
-		virtual void visitItem(Item item);
+		public virtual void visitComposite(ItemList itemList){
+		}
+		public virtual void visitItem(Item item){
+		}
+		public virtual void display (){
+		}
 		//virtual void visitCD(IItem item);
+
 		//virtual void visitBook(IItem item);
 	}
 }
