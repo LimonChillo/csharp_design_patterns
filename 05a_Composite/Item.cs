@@ -8,9 +8,9 @@ namespace a_Composite
 	public abstract class Item:IItem
 	{
 		protected string name;
-		protected float price;
+		protected double price;
 
-		public Item (string name, float price)
+		public Item (string name, double price)
 		{
 			this.name = name;
 			this.price = price;
@@ -26,7 +26,7 @@ namespace a_Composite
 			this.name = name;
 		}
 
-		public float getPrice()
+		public double getPrice()
 		{
 			return price;
 		}
@@ -41,6 +41,10 @@ namespace a_Composite
 			for (int i = 0; i < level; i++)
 				Console.Write ("  ");
 
+		}
+		public ItemList getListByName(string listName)
+		{
+			return null;
 		}
 	}
 }

@@ -9,7 +9,7 @@ namespace a_Composite
 	{
 
 		string isbn;
-		public Book (string name, float price, string isbn):base(name,price)
+		public Book (string name, double price, string isbn):base(name,price)
 		{
 			this.isbn = isbn;
 		}
