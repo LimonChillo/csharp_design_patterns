@@ -15,9 +15,22 @@ namespace b_Visitor
 
 		public void accept(AbstractVisitor visitor) 
 		{
+			visitor.visitComposite(this);
 			foreach (IItem i in allItems) {
 				i.accept(visitor);
 			}
+		}
+
+		public bool acceptXMLVisitor( AbstractVisitor visitor )
+		{
+			if ( visitor.visitEnter( this ) ) 
+			{
+				foreach (IItem i in allItems) {
+					i.acceptXMLVisitor(visitor);
+				}
+			}
+
+			return visitor.visitLeave( this );
 		}
 
 		public ItemList(string name)
@@ -33,6 +46,15 @@ namespace b_Visitor
 		public void removeItem(IItem i)
 		{
 			allItems.Remove(i);
+		}
+		public int getSize()
+		{
+			return allItems.Count;
+		}
+
+		public string getName()
+		{
+			return name;
 		}
 
 

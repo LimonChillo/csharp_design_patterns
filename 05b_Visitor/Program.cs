@@ -1,4 +1,10 @@
-﻿using System;
+﻿/* 	
+ * David Kranewitter
+ * Simon Hintersonnleitner
+*/
+
+
+using System;
 using System.Xml;
 
 
@@ -16,15 +22,15 @@ namespace b_Visitor
 
 			ItemList allItems = readNodes(root);
 
+			Console.WriteLine("DebugVisitor\n");
 			DebugVisitor dv = new DebugVisitor(); 
-
 			allItems.accept(dv);
 
-			dv.display();
+			Console.WriteLine("\n -------- \n");
 
-			//allItems.print (0);
-			//Console.WriteLine();
-			//Console.WriteLine(allItems.getListByName("L2").getPrice());
+			Console.WriteLine("XMLWriterVisitor\n");
+			XMLWriterVisitor wv = new XMLWriterVisitor(); 
+			allItems.acceptXMLVisitor(wv);
 
 		}
 

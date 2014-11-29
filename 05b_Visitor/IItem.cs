@@ -11,6 +11,7 @@ namespace b_Visitor
 		double getPrice ();
 		ItemList getListByName(string listName);
 		void accept(AbstractVisitor visitor);
+		bool acceptXMLVisitor(AbstractVisitor visitor);
 	}
 }
 

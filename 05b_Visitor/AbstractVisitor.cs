@@ -13,11 +13,16 @@ namespace b_Visitor
 		}
 		public virtual void visitItem(Item item){
 		}
-		public virtual void display (){
-		}
-		//virtual void visitCD(IItem item);
 
-		//virtual void visitBook(IItem item);
+		public virtual bool visitEnter( ItemList itemList ){
+			return false;
+		}
+		public virtual bool visitLeave( ItemList itemList ){
+			return false;
+		} 
+		public virtual bool visit( Item item ){
+			return false;
+		}
 	}
 }
 

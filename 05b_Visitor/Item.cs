@@ -21,6 +21,12 @@ namespace b_Visitor
 		{
 			visitor.visitItem(this);
 		}
+			
+
+		public bool acceptXMLVisitor( AbstractVisitor visitor )
+		{
+			return visitor.visit(this);
+		}
 
 		public string getName()
 		{

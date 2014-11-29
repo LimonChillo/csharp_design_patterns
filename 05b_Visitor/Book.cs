@@ -19,6 +19,11 @@ namespace b_Visitor
 			base.print (level);
 			Console.WriteLine("<book name="+ name+ " price="+price+" isbn="+isbn+" />");
 		}
+
+		public string getIsbn()
+		{
+			return isbn;
+		}
 	}
 }
 
