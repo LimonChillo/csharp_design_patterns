@@ -1,10 +1,14 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="05b_Visitor/XMLWriterVisitor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="05b_Visitor/Program.cs">
     <Files>
       <File FileName="05b_Visitor/AbstractVisitor.cs" Line="1" Column="1" />
+      <File FileName="05b_Visitor/Book.cs" Line="1" Column="1" />
       <File FileName="05b_Visitor/DebugVisitor.cs" Line="1" Column="1" />
-      <File FileName="05b_Visitor/XMLWriterVisitor.cs" Line="1" Column="1" />
+      <File FileName="05b_Visitor/IItem.cs" Line="1" Column="1" />
+      <File FileName="05b_Visitor/Item.cs" Line="1" Column="1" />
+      <File FileName="05b_Visitor/ItemList.cs" Line="1" Column="1" />
+      <File FileName="05b_Visitor/Program.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
